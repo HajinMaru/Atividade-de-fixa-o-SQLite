@@ -1,0 +1,8 @@
+BEGIN TRANSACTION;
+CREATE TABLE IF NOT EXISTS Estudante (
+id INTEGER PRIMARY KEY,
+matricula INTEGER,
+nome TEXT
+);
+INSERT INTO "Estudante" VALUES (1,20251131000027,'Ítalo Robert Pereira Amaro');
+COMMIT;
